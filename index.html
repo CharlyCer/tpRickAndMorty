@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <nav>
+      <div class="titulo-general">
+        Rick and Morty
+      </div>
+      <div class="list-conteiner">
+        <ul class="lista-generos">
+          <li id="todos">Todos</li>
+          <li id="mujeres">Mujer</li>
+          <li id="hombres">Hombre</li>
+          <li id="sinGenero">Sin genero</li>
+          <li id="noSeSabe">Desconocido</li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <p>Total de personajes <span id="total-personajes"></span></p>
+      <div id="raiz"></div>
+
+      <div class="container-paginador">
+        <p>Pagina actual: <span id="pagina-actual"></span></p>
+        <p>Total de páginas: <span id="total-paginas"></span></p>
+        <div class="pagination">
+          <i class="first-page fas fa-angle-double-left"></i>
+          <i class="prev-page fas fa-angle-left"></i>
+          <i class="next-page fas fa-angle-right"></i>
+          <i class="last-page fas fa-angle-double-right"></i>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+  <footer>
+    <div>
+      <h1>Footer</h1>
+      <p>© 2022 Copyright Charly 😎</p>
+    </div>
+  </footer>
+</html>
