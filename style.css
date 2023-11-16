@@ -17,6 +17,15 @@ nav{
     -moz-box-shadow: -1px 7px 8px -7px rgba(0,0,0,0.75);
     height: 40px;
 }
+.title-gif{
+    display: flex;
+    align-items: center;
+}
+.gif-nav img{
+  width: 60px;
+  padding: 20px;
+  pointer-events: none;
+}
 .titulo-general{
     font-size: 30px;
     font-family:sans-serif;
@@ -158,10 +167,17 @@ main{
 footer{
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: aliceblue;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.img-morty img{
+    width: 300px;
+}
+.img-rick img{
+    width: 100px;
 }
 @media(max-width:993px){
     #raiz{
